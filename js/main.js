@@ -7,7 +7,7 @@
            alert('Browser doesnt support hashchanges, need to account for this - direct link alternative');
         }
 
-        $('#mainNav').on("click","span",function(){
+        $('#mainNav a').on("click","span",function(){
             $('#mainNav span').each(function() {
                  $(this).removeClass('active');  
             })
